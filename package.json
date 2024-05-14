@@ -1,9 +1,9 @@
 {
-  "name": "Meyawo",
+  "name": "Matthieu Falezan",
   "version": "1.5.0",
-  "description": "An elegant responsive bootstrap 4.x theme.",
+  "description": "My portfolio",
   "main": "gulpfile.js",
-  "author": "DevCRUD",
+  "author": "Matthieu Falezan",
   "scripts": {
     "start": "gulp"
   },

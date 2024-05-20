@@ -39,7 +39,7 @@ $('#nav-toggle').click(function(){
 
 document.querySelector('.arrow').addEventListener('click', function(event) {
     event.preventDefault();
-    const nextSection = document.getElementById('about');
+    const nextSection = document.getElementById('moi');
     window.scrollTo({
       top: nextSection.offsetTop,
       behavior: 'smooth'

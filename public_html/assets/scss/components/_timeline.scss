@@ -1,0 +1,131 @@
+$white: rgba(255, 255, 255, 1);
+$black: rgba(38, 38, 38, 1);
+$lightGray: rgba(245, 239, 237, 1);
+$gray: rgba(213, 223, 229, 1);
+$lightBlue: rgba(86, 203, 249, 1);
+$blue: rgba(28, 119, 195, 1);
+
+
+.timeline {
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+  
+  &:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 15px;
+    background-color: $gray;
+    border-radius: 15px;
+    top: 76px;
+  }
+  
+  .timeline-item {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    
+    &:hover {
+      
+      &:after {
+        transform: scale(1.5, 1.5);
+      }
+      
+    }
+    
+    &.selected {
+      
+      &:after {
+        background-color: $blue;
+        border: 5px solid $lightBlue;
+        transform: scale(1.5, 1.5);
+      }
+      
+    }
+    
+    &:after {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 69px;
+      left: 50%;
+      margin-left: -15px;
+      background-color: $lightGray;
+      border: 5px solid $gray;
+      content: "";
+      border-radius: 50%;
+      transition: transform .5s ease;
+    }
+    .timeline-content {
+      position: absolute;
+      top: -180px;
+      width: 350px;
+      left: -60px;
+      opacity: 0;
+      cursor: auto;
+      &.animated {
+        opacity: 1;
+        transition-delay: 0.2s;
+      }
+    }
+  }
+  
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.flex-items-default {
+  width: 222px;
+  height: 150px;
+}
+
+.dropdown {
+  width: 400px;
+  height: 200px;
+  background: $white;
+  box-shadow: 0 3px 20px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  position: absolute;
+  top: -184px;
+  display: none;
+  animation-duration: .2s;
+  transition: left .3s ease;
+  
+  .inner {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    
+    .arrow-down {
+      position: absolute;
+      bottom: -19px;
+      left: 50%;
+      margin-left: -20px;
+    }
+    
+  }
+
+
+  
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid $white;
+}
+
+.animated {
+  display: block;
+}

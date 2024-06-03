@@ -55,6 +55,8 @@
 
 	.portfolio-card-img {
 		width: 100%;
+		aspect-ratio: 9/9;
+		object-fit: cover;
 	}
 
 	.portfolio-card-overlay {

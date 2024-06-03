@@ -24,6 +24,7 @@
 			bottom: -100%;
 			opacity: 0;
 			visibility: hidden;
+			text-align: left;
 			@include transition(all,.3s);
 		}
 	}
@@ -32,7 +33,7 @@
 		.body {
 			img.icon {
 				margin-top: 5px;
-				width: 45px;
+				width: 35px;
 				margin-bottom: 15px;
 			}
 
@@ -54,6 +55,8 @@
 
 	.portfolio-card-img {
 		width: 100%;
+		aspect-ratio: 9/9;
+		object-fit: cover;
 	}
 
 	.portfolio-card-overlay {

@@ -3,41 +3,36 @@
 <head>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Start your development with Meyawo landing page.">
-    <meta name="author" content="Devcrud">
-    <title>Meyawo Landing page | Free Bootstrap 4.3.x landing page</title>
-    <!-- font icons -->
+    <meta name="description" content="Page portfolio Matthieu Falezan">
+    <meta name="author" content="Matthieu Falezan">
+    <title>Matthieu Falezan</title>
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-    <!-- Bootstrap + Meyawo main styles -->
-	<link rel="stylesheet" href="assets/css/meyawo.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
     <!-- Page Navbar -->
     <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
         <div class="container">
-            <a class="logo" href="#">Meyawo</a>         
+            <a class="logo" href="#">Matthieu Falezan</a>         
             <ul class="nav">
                 <li class="item">
-                    <a class="link" href="#home">Home</a>
+                    <a class="link" href="#accueil">Accueil</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#about">About</a>
+                    <a class="link" href="#moi">Moi</a>
+                </li>
+                <li class="item">
+                    <a class="link" href="#experience">Experience</a>
                 </li>
                 <li class="item">
                     <a class="link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="item">
-                    <a class="link" href="#testmonial">Testmonial</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="#blog">Blog</a>
-                </li>
-                <li class="item">
                     <a class="link" href="#contact">Contact</a>
-                </li>
-                <li class="item ml-md-3">
-                    <a href="components.html" class="btn btn-primary">Components</a>
                 </li>
             </ul>
             <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
@@ -49,81 +44,175 @@
     </nav><!-- End of Page Navbar -->
 
     <!-- page header -->
-    <header id="home" class="header">
+    <header id="accueil" class="header">
         <div class="overlay"></div>
         <div class="header-content container">
             <h1 class="header-title">
-                <span class="up">HI!</span>
-                <span class="down">I am John Doe</span>
-            </h1>
-            <p class="header-subtitle">FRONTEND WEB DESIGNER</p>            
+                <span class="up">Hello !</span>
+                <span class="down">Moi c'est</span>
+                <span class="down">Matthieu Falezan</span>
 
-            <button class="btn btn-primary">Visit My Works</button>
-        </div>              
+            </h1>
+            <p class="header-subtitle">DEVELOPPEUR FULL STACK</p>            
+
+            <a class="btn btn-primary" href="#contact">Me contacter</a>
+            <a class="btn btn-secondary" href="assets/imgs/CV_FALEZAN_MATTHIEU.pdf" target="_blank">Télécharger mon CV</a>
+
+        </div>  
     </header><!-- end of page header -->
 
+
+    <section class="arrow">
+        <a href=""><img src="assets/imgs/arrow_down.png"></a>
+    </section>
+
     <!-- about section -->
-    <section class="section pt-0" id="about">
+    <section class="section pt-0" id="moi">
         <!-- container -->
         <div class="container text-center">
             <!-- about wrapper -->
             <div class="about">
                 <div class="about-img-holder">
-                    <img src="assets/imgs/man.png" class="about-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                    <img src="assets/imgs/Matthieu_Falezan.png" class="about-img" alt="Portrait">
                 </div>
                 <div class="about-caption">
-                    <p class="section-subtitle">Who Am I ?</p>
-                    <h2 class="section-title mb-3">About Me</h2>
+                    <p class="section-subtitle">Qui je suis ?</p>
+                    <h2 class="section-title mb-3">À propos de moi</h2>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae aliquid ad provident aut fuga animi soluta quae eos non cupiditate voluptates dolorem, doloremque quos dicta quibusdam impedit iure nemo a iste 
-                        <br>culpa! Quasi quibusdam hic recusandae delectus velit officiis explicabo voluptatibus! Nemo esse similique, voluptates labore distinctio, placeat explicabo facilis molestias, blanditiis culpa iusto voluptatem ratione eligendi a, quia temporibus velit vero ipsa sint ex voluptatum expedita aliquid! Debitis, nam!              
+                        Je m'appelle Matthieu, et je suis un étudiant passionné par le monde de l'informatique. À 20 ans, je suis actuellement en troisième année de BUT informatique à l'IUT de Lannion.
+                        </br>Dans le cadre de ma formation, je suis également alternant chez Crédit Mutuel Arkéa en tant que développeur full-stack.              
+                        </br>Je suis quelqu'un de très curieux et j'aime relever des défis et trouver des solutions innovantes aux problèmes qui se présentent à moi.
+                        </br>L'année prochaine je continue mes études à l'école CESI Brest en réalisant le MAALSI (Mastère professionnel manager en architecture et applications logicielles des SI) tout en poursuivant mon alternance au sein du Crédit Mutuel Arkéa.              
                     </p>
-                    <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+                    <a class="btn-rounded btn btn-outline-primary mt-4" href="assets/imgs/CV_FALEZAN_MATTHIEU.pdf" target="_blank">Télécharger mon CV</a>
+
                 </div>              
             </div><!-- end of about wrapper -->
         </div><!-- end of container -->
     </section> <!-- end of about section -->
 
+    <!-- experience section -->
+    <section class="section pt-0" id="experience">
+        <!-- container -->
+        <div class="container text-center">
+            <!-- experience wrapper -->
+            <div class="experience">
+                <div class="experience-caption">
+                    <p class="section-subtitle">Apprenez-en d'avantage</p>
+                    <h2 class="section-title mb-3">Mon experience</h2>
+                </div>              
+            </div><!-- end of aexperiencebout wrapper -->
+        </div><!-- end of container -->
+        <div class="container">
+          <div class="timeline flex-container">
+      
+            <div class="timeline-item flex-items-default">
+              <div class="timeline-content text-left">
+                <h2>Bac STI2D</h2>
+                <h3>2018 - 2021</h3>
+                <p> Spécialité SIN (Système d'information et numérique)<br>
+                    Lycée Felix Le Dantec, 22300 Lannion</p>
+              </div>
+            </div>
+            <div class="timeline-item flex-items-default">
+              <div class="timeline-content text-left">
+                <h2>BUT Informatique</h2>
+                <h3>2021 - 2024</h3>
+                <p> Parcours A : Réalisation d'applications <br>
+                    Iut de Lannion, 22300 Lannion
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item flex-items-default">
+              <div class="timeline-content text-left">
+                <h2>Alancia </h2>
+                <h3>2022 - 2023</h3>
+                <p>Alternant Développeur Web <br>
+                    - Création d'un logiciel extranet <br>
+                    - Création de sites internet
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item flex-items-default">
+              <div class="timeline-content text-left">
+                <h2>Crédit Mutuel Arkéa</h2>
+                <h3>2023 -</h3>
+                <p>Alternant Développeur Full Stack Web<br>
+                    - Refonte complète d'une API liée à la mobilité Bancaire</p>
+              </div>
+            </div>
+            <div class="timeline-item flex-items-default">
+              <div class="timeline-content text-left">
+                <h2>CESI Brest</h2>
+                <h3>2024 -</h3>
+                <p>Mastere MAALSI (Manager en architecture et applications logicielles des systèmes d'information) <br>
+                    29200 Brest</p>
+              </div>
+            </div>
+      
+            <div class="dropdown fadeOut" style="left: -88px;">
+              <div class="inner">
+                <div class="arrow-down"></div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </section> <!-- end of experience section -->
+
     <!-- service section -->
     <section class="section" id="service">
         <div class="container text-center">
-            <p class="section-subtitle">What I Do ?</p>
-            <h6 class="section-title mb-6">Service</h6>
+            <p class="section-subtitle">N'oubliez pas</p>
+            <h6 class="section-title mb-6">Mes compétences</h6>
             <!-- row -->
             <div class="row">
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/pencil-case.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
-                            <h6 class="title">Adipisicing</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.</p>
+                            <img src="assets/imgs/dev_logiciel.png" alt="Developpement Logiciel" class="icon">
+                            <h6 class="title">Développement Logiciel</h6>
+                            <p class="subtitle">- Java & Java Spring Boot <br>
+                                                - Node Js <br>
+                                                - PHP <br>
+                                                - C
+                            </p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/responsive.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
-                            <h6 class="title">Sapiente</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.</p>
+                            <img src="assets/imgs/dev_web.png" alt="Developpement Web" class="icon">
+                            <h6 class="title">Développement Web</h6>
+                            <p class="subtitle">- HTML <br>
+                                                - CSS & SCSS <br>
+                                                - JavaScript, React & VueJs <br>
+                                                - Boostrap
+                            </p>     
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/toolbox.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
-                            <h6 class="title">Placeat</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.</p>
+                            <img src="assets/imgs/dev_ops.png" alt="Developpement Ops" class="icon">
+                            <h6 class="title">Développement Ops</h6>
+                            <p class="subtitle">- Linux <br>
+                                                - Docker <br>
+                                                - Git & Gitlab CI
+                            </p>       
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/analytics.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
-                            <h6 class="title">Iusto</h6>
-                            <p class="subtitle">Labore velit culpa adipisci excepturi consequuntur itaque in nam molestias dolorem iste quod.</p>
+                            <img src="assets/imgs/bases-de-donnees.png" alt="Base de données" class="icon">
+                            <h6 class="title">Base de données</h6>
+                            <p class="subtitle">- SQL <br>
+                                                - NoSql
+                            </p>  
                         </div>
                     </div>
                 </div>
@@ -134,243 +223,567 @@
     <!-- portfolio section -->
     <section class="section" id="portfolio">
         <div class="container text-center">
-            <p class="section-subtitle">What I Did ?</p>
+            <p class="section-subtitle">Découvrez mon</p>
             <h6 class="section-title mb-6">Portfolio</h6>
             <!-- row -->
-            <div class="row">
+            <div class="row portfolio_slick">
                 <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
-                        <img src="assets/imgs/folio-1.jpg" class="portfolio-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
+                    <a href="#hidden-container-1" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/Yams.jpg" class="img-responsive rounded" alt="Jeux du Yams">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                <p class="font-weight-normal">Category: Web Templates</p>
+                                <h4>Jeux du Yams en C</h4>
+                                <p class="font-weight-normal">Année: 2021</p>
                             </span>                         
-                        </span>                     
+                        </span>     
+                        <div id="hidden-container-1" class="hidden-container">
+                            <h2>Jeux du Yams en C</h2>
+                            <div class="accordion-menu">
+                                <ul class="list">
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-code"></i>Description</h4>
+                                        <p>
+                                            Le projet "Jeu du Yams" a été réalisé en solitaire en utilisant le langage de programmation C. 
+                                            Ce jeu est une adaptation informatique du célèbre jeu de dés, également connu sous le nom de Yahtzee. 
+                                            Le Yams est un jeu de société classique où les joueurs lancent des dés pour obtenir des combinaisons spécifiques afin de marquer des points. 
+                                            Le projet vise à recréer cette expérience de jeu de manière numérique, avec une interface en ligne de commande.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-question"></i>Langages utilisés</h4>
+                                        <p> Ce jeu à entièrement développé via le langage C. <br>
+                                            L'outils de documentation Doxygen à également été utilisé
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-laugh"></i>Compétences</h4>
+                                        <p>
+                                            <ul>
+                                                <li>
+                                                    Compétence 1 : Réalisation d'un Développement d'application
+                                                    <ul>
+                                                        <li>
+                                                            AC 11.01 : Implémenter des conceptions simples
+                                                        </li>
+                                                        <li>
+                                                            AC 11.03 : Faire des essais et évaluer leurs résultats en regard des spécifications
+                                                        </li>
+                                                        <li>
+                                                            AC 11.04 : Développer des interfaces utilisateurs
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 2 : Optimiser des applications informatiques
+                                                    <ul>
+                                                        <li>
+                                                            AC 12.01 : Analyser un problème avec méthode
+                                                        </li>
+                                                        <li>
+                                                            AC 12.02 : Comparer des algorithmes pour des problèmes classiques
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 5 : Conduire un projet
+                                                    <ul>
+                                                        <li>
+                                                            AC 15.01 : Appréhender les besoins du client et de l'utilisateur
+                                                        </li>
+                                                        <li>
+                                                            AC 15.02 : Mettre en place les outils de gestion de projet
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>  
+                            <img src="assets/imgs/Yams_terminal.png" class="rounded" alt="Jeux du Yams">                                                                
+                        </div>
                     </a>
-                </div>
+                </div>             
                 <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
+                    <a href="#hidden-container-2" class="portfolio-card">
                         <img class="portfolio-card-img" src="assets/imgs/folio-2.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                <p class="font-weight-normal">Category: Web Templates</p>
+                                <h4>Site Internet</h4>
+                                <p class="font-weight-normal">Année: 2022</p>
                             </span>                         
-                        </span>                         
+                        </span>     
+                        <div id="hidden-container-2" class="hidden-container">
+                            <h2>Site internet Koh Frais</h2>
+                            <div class="accordion-menu">
+                                <ul class="list">
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-code"></i>Description</h4>
+                                        <p>
+                                            Le projet "Koh Frais" a été réalisé en groupe de 3. 
+                                            Ce projet avait pour objectif de réaliser tout le processus de création d'un site internet pour une entreprise fictive.
+                                            C'est à dire le recueil des besoins / La charte graphique et enfin le site web vitrine. 
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-question"></i>Langages utilisés</h4>
+                                        <p> Le site internet à été développé via HTML, CSS mais également Boostrap <br>
+                                            Il m'a également permis de travailler en équipe etc
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-laugh"></i>Compétences</h4>
+                                        <p>
+                                            <ul>
+                                                <li>
+                                                    Compétence 1 : Réalisation d'un Développement d'application
+                                                    <ul>
+                                                        <li>
+                                                            AC 11.01 : Implémenter des conceptions simples
+                                                        </li>
+                                                        <li>
+                                                            AC 11.02 : Elaborer des conceptions simples
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 5 : Conduire un projet
+                                                    <ul>
+                                                        <li>
+                                                            AC 15.01 : Appréhender les besoins du client et de l'utilisateur
+                                                        </li>
+                                                        <li>
+                                                            AC 15.02 : Mettre en place les outils de gestion de projet
+                                                        </li>
+                                                        <li>
+                                                            AC 15.03 : Identifier les acteurs et les différentes phases d'un cycle de développement
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 6 : Travailler dans une équipe informatique
+                                                    <ul>
+                                                        <li>
+                                                            AC 16.03 : Identifier les statuts, les fonctions et les rôles de chaque membre d'une équipe pluridisciplinaire
+                                                        </li>
+                                                        <li>
+                                                            AC 15.04 : Acquérir les compétences interpersonnelles pour travailler en équipe
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>  
+                        </div>
+                    </a>
+                </div>                
+                <div class="col-md-4">
+                    <a href="#hidden-container-3" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Intégration d'une API</h4>
+                                <p class="font-weight-normal">Année : 2023</p>
+                            </span>                         
+                        </span>     
+                        <div id="hidden-container-3" class="hidden-container">
+                            <h2>Intégration d'une API</h2>
+                            <div class="accordion-menu">
+                                <ul class="list">
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-code"></i>Description</h4>
+                                        <p>
+                                            Ce projet est un projet en duo ou l'objectif était d'implémenter une API permettant de récupérer la liste de tous les pays du monde.
+                                            Il a dont fallu implémenter plusieurs solutions afin d'optimiser le temps de chargement. Par exemple nous avons ici implémenter un système
+                                            de pagination, de recherche et également de tri.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-question"></i>Langages utilisés</h4>
+                                        <p> Pour ce projet nous avons utilisé les langages HTML, CSS et JS <br>
+                                            Il m'a également permis de travailler en équipe etc
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-laugh"></i>Compétences</h4>
+                                        <p>
+                                            <ul>
+                                                <li>
+                                                    Compétence 1 : Réalisation d'un Développement d'application
+                                                    <ul>
+                                                        <li>
+                                                            AC 21.01 : Elaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences
+                                                        </li>
+                                                        <li>
+                                                            AC 21.03 : Adopter de bonnes pratiques de conception et de programmation
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 2 : Optimiser des applications informatiques
+                                                    <ul>
+                                                        <li>
+                                                            AC 22.02 : Utiliser des techniques algorithmiques adaptées pour des problèmes complexes
+                                                        </li>
+                                                        <li>
+                                                            AC 22.03 : Comprendre les enjeux et moyens de sécurisation des données et du code
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 4 : Gérer des données de l'information
+                                                    <ul>
+                                                        <li>
+                                                            AC 24.04 : Manipuler des données hétérogènes
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 5 : Conduire un projet
+                                                    <ul>
+                                                        <li>
+                                                            AC 25.02 : Formaliser les besoins du client et de l'utilisateur
+                                                        </li>
+                                                        <li>
+                                                            AC 25.04 : Définir et mettre en oeuvre une démarche de suivi de projet
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>  
+                        </div>
+                    </a>
+                </div> 
+                Projet Ue3 et BDD   
+                <div class="col-md-4">
+                    <a href="#hidden-container-5" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Logiciel extranet</h4>
+                                <p class="font-weight-normal">Année : 2023</p>
+                            </span>                         
+                        </span>     
+                        <div id="hidden-container-5" class="hidden-container">
+                            <h2>Logiciel extranet</h2>
+                            <div class="accordion-menu">
+                                <ul class="list">
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-code"></i>Description</h4>
+                                        <p>
+                                           Ce projet est un projet d'entreprise réaliser lors de ma première année d'alternance au sein de l'entreprise Alancia.
+                                           A partir d'un diagramme UML, l'objectif était de réaliser un logiciel extranet permettant de gérer les clients d'Alancia.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-question"></i>Langages utilisés</h4>
+                                        <p> Le logiciel à été développé via HTML, CSS et PHP<br>
+                                            Il m'a également permis de travailler en équipe etc
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-laugh"></i>Compétences</h4>
+                                        <p>
+                                            <ul>
+                                                <li>
+                                                    Compétence 1 : Réalisation d'un Développement d'application
+                                                    <ul>
+                                                        <li>
+                                                            AC 21.01 : Elaborer et implémenter les spécifications fonctionnelles et non fonctionnelles à partir des exigences
+                                                        </li>
+                                                        <li>
+                                                            AC 21.02 : Appliquer accessibilité et ergonomi
+                                                        </li>
+                                                        <li>
+                                                            AC 21.03 : Adopter de bonnes pratiques de conception et de programmation
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 2 : Optimiser des applications informatiques
+                                                    <ul>
+                                                        <li>
+                                                            AC 22.01 : Choisir des structures de données 
+                                                        </li>
+                                                        <li>
+                                                            AC 22.02 : Utiliser des techniques algorithmiques adaptées pour des problèmes complexes
+                                                        </li>
+                                                        <li>
+                                                            AC 22.03 : Comprendre les enjeux et moyens de sécurisation des données et du code
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 3 : Administrer des systèmes informatiques communicants complexes
+                                                    <ul>
+                                                        <li>
+                                                            AC 23.02 : Utiliser des serveurs et des services réseaux virtualisés 
+                                                        </li>
+                                                        <li>
+                                                            AC 23.03 : Sécuriser les services et données d’un système 
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 4 : Gérer des données de l'information
+                                                    <ul>
+                                                        <li>
+                                                            AC 24.01 : Optimiser les modèles de données de l'entreprise
+                                                        </li>
+                                                        <li>
+                                                            AC 24.04 : Manipuler des données hétérogènes
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 5 : Conduire un projet
+                                                    <ul>
+                                                        <li>
+                                                            AC 25.01 : Identifier les processus présents dans une organisation en vue d’améliorer les systèmes d’information 
+                                                        </li>
+                                                        <li>
+                                                            AC 25.02 : Formaliser les besoins du client et de l'utilisateur
+                                                        </li>
+                                                        <li>
+                                                            AC 25.04 : Définir et mettre en oeuvre une démarche de suivi de projet
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 6 : Travailler dans une équipe informatique
+                                                    <ul>
+                                                        <li>
+                                                            AC 26.01 : Comprendre la diversité, la structure et la dimension de l’informatique dans une organisation                                                        </li>
+                                                        <li>
+                                                            AC 26.02 :  Intégrer une équipe informatique                                                         
+                                                        </li>
+                                                        <li>
+                                                            AC 26.04 : Rendre compte de son activité professionnelle 
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>  
+                        </div>
                     </a>
                 </div>
                 <div class="col-md-4">
-                    <a href="#" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">    
+                    <a href="#hidden-container-4" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Web Designing</h5>
-                                <p class="font-weight-normal">Category: Web Templates</p>
+                                <h4>Cayden Ouest</h4>
+                                <p class="font-weight-normal">Année : 2024</p>
                             </span>                         
-                        </span>                     
+                        </span>     
+                        <div id="hidden-container-4" class="hidden-container">
+                            <h2>Cayden Ouest</h2>
+                            <div class="accordion-menu">
+                                <ul class="list">
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-code"></i>Description</h4>
+                                        <p>
+                                            Le projet "Cayden Ouest" a été réalisé en groupe de 5. 
+                                            A partir d'un livre RPG, le but etait d'une réaliser une application permettant de jouer a ce livre.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-question"></i>Langages utilisés</h4>
+                                        <p> Le site internet à été développé via Node Js, React<p>
+                                            Il m'a également permis de travailler en équipe etc
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-laugh"></i>Compétences</h4>
+                                        <p>
+                                            <ul>
+                                                <li>
+                                                    Compétence 1 : Réalisation d'un Développement d'application
+                                                    <ul>
+                                                        <li>
+                                                            AC 11.01 : Implémenter des conceptions simples
+                                                        </li>
+                                                        <li>
+                                                            AC 11.02 : Elaborer des conceptions simples
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 5 : Conduire un projet
+                                                    <ul>
+                                                        <li>
+                                                            AC 15.01 : Appréhender les besoins du client et de l'utilisateur
+                                                        </li>
+                                                        <li>
+                                                            AC 15.02 : Mettre en place les outils de gestion de projet
+                                                        </li>
+                                                        <li>
+                                                            AC 15.03 : Identifier les acteurs et les différentes phases d'un cycle de développement
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 6 : Travailler dans une équipe informatique
+                                                    <ul>
+                                                        <li>
+                                                            AC 16.03 : Identifier les statuts, les fonctions et les rôles de chaque membre d'une équipe pluridisciplinaire
+                                                        </li>
+                                                        <li>
+                                                            AC 15.04 : Acquérir les compétences interpersonnelles pour travailler en équipe
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>  
+                        </div>
                     </a>
-                </div>
+                </div> 
+                <div class="col-md-4">
+                    <a href="#hidden-container-6" class="portfolio-card">
+                        <img class="portfolio-card-img" src="assets/imgs/folio-3.jpg" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                        <span class="portfolio-card-overlay">
+                            <span class="portfolio-card-caption">
+                                <h4>Mobilité Bancaire</h4>
+                                <p class="font-weight-normal">Année : 2024</p>
+                            </span>                         
+                        </span>     
+                        <div id="hidden-container-6" class="hidden-container">
+                            <h2>Mobilite Bancaire</h2>
+                            <div class="accordion-menu">
+                                <ul class="list">
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-code"></i>Description</h4>
+                                        <p>
+                                            Ceci est actuellement mon projet d'alternance au sein du Crédit Mutuel Arkéa.
+                                            L'objectif est de refaire totalement le parcours de mobilite bancaire des différents clients du Crédit Mutuel Arkéa car l'ancien étant devenu obselète.
+                                            Partie analyse, conception 
+                                            BFF
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-question"></i>Langages utilisés</h4>
+                                        <p> JavaSpring et VueJs<br>
+                                            Il m'a également permis de travailler en équipe etc
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" checked>
+                                        <i class="arrow"></i>
+                                        <h4><i class="fas fa-laugh"></i>Compétences</h4>
+                                         <p>
+                                            <ul>
+                                                <li>
+                                                    Compétence 1 : Réalisation d'un Développement d'application
+                                                    <ul>
+                                                        <li>
+                                                            AC 11.01 : Implémenter des conceptions simples
+                                                        </li>
+                                                        <li>
+                                                            AC 11.02 : Elaborer des conceptions simples
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 5 : Conduire un projet
+                                                    <ul>
+                                                        <li>
+                                                            AC 15.01 : Appréhender les besoins du client et de l'utilisateur
+                                                        </li>
+                                                        <li>
+                                                            AC 15.02 : Mettre en place les outils de gestion de projet
+                                                        </li>
+                                                        <li>
+                                                            AC 15.03 : Identifier les acteurs et les différentes phases d'un cycle de développement
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li>
+                                                    Compétence 6 : Travailler dans une équipe informatique
+                                                    <ul>
+                                                        <li>
+                                                            AC 16.03 : Identifier les statuts, les fonctions et les rôles de chaque membre d'une équipe pluridisciplinaire
+                                                        </li>
+                                                        <li>
+                                                            AC 15.04 : Acquérir les compétences interpersonnelles pour travailler en équipe
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>  
+                        </div>
+                    </a>
+                </div> 
             </div><!-- end of row -->
         </div><!-- end of container -->
     </section> <!-- end of portfolio section -->
 
-    <!-- pricing section -->
-    <section class="section" id="pricing">
-        <div class="container text-center">
-            <p class="section-subtitle">How Much I Charge ?</p>
-            <h6 class="section-title mb-6">My Pricing</h6>
-            <!-- row -->
-            <div class="pricing-wrapper">
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/scooter.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Free</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p><i class="ti-close"></i></p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>0.00/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/shipped.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Basic</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p><i class="ti-close"></i></p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>9.99/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-card-header">
-                        <img class="pricing-card-icon" src="assets/imgs/startup.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                    </div>
-                    <div class="pricing-card-body">
-                        <h6 class="pricing-card-title">Premium</h6>
-                        <div class="pricing-card-list">
-                            <p>accusamus reprehenderit</p>
-                            <p>provident dolorem </p>
-                            <p>quos neque</p>
-                            <p>fugiat quibusdam</p>
-                            <p>accusamus laboriosam</p>
-                            <p>inventore omnis</p>
-                        </div>
-                    </div>
-                    <div class="pricing-card-footer">
-                        <span>$</span>
-                        <span>99.9/Month</span>
-                    </div>
-                    <a href="#" class="btn btn-primary mt-3 pricing-card-btn">Subscribe</a>
-                </div>
-
-            </div><!-- end of pricing wrapper -->
-        </div> <!-- end of container -->
-    </section><!-- end of pricing section -->
-
-    <!-- section -->
-    <section class="section-sm bg-primary">
-        <!-- container -->
-        <div class="container text-center text-sm-left">
-            <!-- row -->
-            <div class="row align-items-center">
-                <div class="col-sm offset-md-1 mb-4 mb-md-0">
-                    <h6 class="title text-light">Want to work with me?</h6>
-                    <p class="m-0 text-light">Always feel Free to Contact & Hire me</p>
-                </div>
-                <div class="col-sm offset-sm-2 offset-md-3">
-                    <button class="btn btn-lg my-font btn-light rounded">Hire Me</button>
-                </div>
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </section> <!-- end of section -->
-
-    <!-- testimonial section -->
-    <section class="section" id="testmonial">
-        <div class="container text-center">
-            <p class="section-subtitle">What Think Client About Me ?</p>
-            <h6 class="section-title mb-6">Testmonial</h6>
-
-            <!-- row -->
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar2.jpg" class="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">                           
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="testimonial-card">
-                        <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar3.jpg" class="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">                        
-                        </div>
-                        <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- end of container -->
-    </section> <!-- end of testimonial section -->
-    
-    <!-- blog section -->
-    <section class="section" id="blog">
-        <!-- container -->
-        <div class="container text-center">
-            <p class="section-subtitle">Recent Posts?</p>
-            <h6 class="section-title mb-6">Blog</h6>
-            <!-- blog-wrapper -->
-            <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/img-1.jpg" class="blog-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
-                <div class="blog-card-body">
-                    <h5 class="blog-card-title">Consectetur adipisicing elit</h6>
-
-                    <p class="blog-card-caption">
-                        <a href="#">By: Admin</a>
-                        <a href="#"><i class="ti-heart text-danger"></i> 234</a>
-                        <a href="#"><i class="ti-comment"></i> 123</a>
-                    </p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet nesciunt qui sit velit delectus voluptates, repellat ipsum culpa id deleniti. Rerum debitis facilis accusantium neque numquam mollitia modi quasi distinctio.</p>
-
-                    <p><b>Necessitatibus nihil impedit! Ex nisi eveniet, dolor aliquid consequuntur repudiandae.</b></p>
-                    <p>Magnam in repellat enim harum omnis aperiam! Explicabo illo, commodi, dolor blanditiis cupiditate harum nisi vero accusamus laudantium voluptatibus dolores quae obcaecati.</p>
-
-                    <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
-                </div>
-            </div><!-- end of blog wrapper -->
-
-            <!-- blog-wrapper -->
-            <div class="blog-card">
-                <div class="blog-card-header">
-                    <img src="assets/imgs/img-2.jpg" class="blog-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                </div>
-                <div class="blog-card-body">
-                    <h5 class="blog-card-title">Explicabo illo</h6>
-
-                    <p class="blog-card-caption">
-                        <a href="#">By: Admin</a>
-                        <a href="#"><i class="ti-heart text-danger"></i> 456</a>
-                        <a href="#"><i class="ti-comment"></i> 264</a>
-                    </p>
-                    
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit excepturi laborum enim, vitae ipsam atque eum, ad iusto consequuntur voluptas, esse doloribus. Perferendis porro quisquam vitae exercitationem aliquid, minus eos laborum repudiandae, cumque debitis iusto omnis praesentium? Laborum placeat sit adipisci illum tempore maxime, esse qui quae? Molestias excepturi corporis similique doloribus. Esse vitae earum architecto nulla non dolores illum at perspiciatis quod, et deleniti cupiditate reiciendis harum facere, delectus eum commodi soluta distinctio sit repudiandae possimus sunt. Ipsum, rem.</p>
-
-                    <a href="#" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
-                </div>
-            </div><!-- end of blog wrapper -->
-
-        </div><!-- end of container -->
-    </section><!-- end of blog section -->
-
     <!-- contact section -->
     <section class="section" id="contact">
         <div class="container text-center">
-            <p class="section-subtitle">How can you communicate?</p>
-            <h6 class="section-title mb-5">Contact Me</h6>
+            <p class="section-subtitle">N'hesitez pas</p>
+            <h6 class="section-title mb-5">Contactez-Moi</h6>
             <!-- contact form -->
             <form action="" class="contact-form col-md-10 col-lg-8 m-auto">
                 <div class="form-row">
                     <div class="form-group col-sm-6">
-                        <input type="text" size="50" class="form-control" placeholder="Your Name" required>                 
+                        <input type="text" size="50" class="form-control" placeholder="Votre nom" required>                 
                     </div>
                     <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" placeholder="Enter Email"requried>                 
+                        <input type="email" class="form-control" placeholder="Votre mail"requried>                 
                     </div>
                     <div class="form-group col-sm-12">
-                        <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Write Something"></textarea>
+                        <textarea name="comment" id="comment" rows="6"   class="form-control" placeholder="Ecrivez quelque chose"></textarea>
                     </div>
                     <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">                  
+                        <input type="submit" value="Envoyez" class="btn btn-outline-primary rounded">                  
                     </div>
                 </div>  
             </form><!-- end of contact form -->
@@ -380,14 +793,10 @@
     <!-- footer -->
     <div class="container">
         <footer class="footer">       
-            <p class="mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; <a href="http://www.devcrud.com">DevCRUD</a></p>
+            <p class="mb-0">Copyright <script>document.write(new Date().getFullYear())</script> &copy; Matthieu Falezan</p>
             <div class="social-links text-right m-auto ml-sm-auto">
-                <a href="javascript:void(0)" class="link"><i class="ti-facebook"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-twitter-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-google"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-pinterest-alt"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-instagram"></i></a>
-                <a href="javascript:void(0)" class="link"><i class="ti-rss"></i></a>
+                <a href="https://www.linkedin.com/in/matthieu-falezan-6ab88322b/" class="link"><i class="ti-linkedin"></i></a>
+                <a href="https://github.com/mfalezan/" class="link"><i class="ti-github"></i></a>
             </div>
         </footer>
     </div> <!-- end of page footer -->
@@ -399,8 +808,15 @@
     <!-- bootstrap 3 affix -->
 	<script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
-    <!-- Meyawo js -->
-    <script src="assets/js/meyawo.js"></script>
+    <!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+    <!-- Meyawo js -->
+    <script src="assets/js/main.js"></script>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 </html>

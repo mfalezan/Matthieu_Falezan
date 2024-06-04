@@ -1,5 +1,12 @@
 .hidden-container {
-    display: none;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.hidden-container.visible {
+  opacity: 1;
+  height: auto;
 }
 
 .mfp-content {
@@ -16,13 +23,39 @@
     }
   
     .hidden-container {
-      img {
-        position: relative;
-        width: 75%;
-        left: 50%;
-        transform: translateX(-50%);
-      }
+
+      .title_content {
+
+        h2 {
+          margin: 0;
+          width: 35%;
+          float: left;
+        }
+
+        .img_slick {
+          margin : 30px auto 50px;
+          width: 90%;
+
+          .slick-slide {
+              .image{
+                img {
+                  display: block;
+                  width: 100%;
+                  aspect-ratio: 16/8;
+                  object-fit: cover;
+                }
+                
+              }
   
+          }
+
+          .slick-prev {
+            left: 27.5%;
+          }
+        }
+    }
+    
+
       .accordion-menu {
         position: relative;
         margin: 15px 0;
@@ -108,7 +141,7 @@
               cursor: pointer;
               width: 100%;
               height: 100%;
-              z-index: 1;
+              z-index: 0;
               opacity: 0;
   
               &:checked ~ p{

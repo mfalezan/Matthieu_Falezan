@@ -29,25 +29,39 @@ $(document).ready(function(){
             });
         } 
     });
+    $('.portfolio-card').magnificPopup({
+      type: 'inline',
+      midClick: true, // Allow opening popup on middle mouse click
+      callbacks: {
+          open: function() { 
+              // Afficher uniquement le conteneur associé à l'élément cliqué
+              var target = $(this.st.el).attr('href');
+              $(target).toggleClass("visible");
 
-      $('.portfolio-card').magnificPopup({
-        type: 'inline',
-        midClick: true, // Allow opening popup on middle mouse click
-        callbacks: {
-          open: function() {            
-            // Afficher uniquement le conteneur associé à l'élément cliqué
-            var target = $(this.st.el).attr('href');
-            $(target).css("display", "block");
-        }
-        },
-    });
+              $('.img_slick').slick({
+                infinite: true,
+                slidesToShow: 1, // Nombre de slides à montrer à la fois
+                slidesToScroll: 1, // Nombre de slides à faire défiler à la fois
+                arrows: true,
+              });
+          
+          },
+          close: function() {
+              // Hide the container when the popup is closed
+              $(".hidden-container").removeClass("visible");
+              
+              $('.img_slick').slick('unslick');
+          }
+      }
+  });
+  
     
     $('.portfolio_slick').slick({
       infinite: true,
       slidesToShow: 3, // Nombre de slides à montrer à la fois
       slidesToScroll: 1, // Nombre de slides à faire défiler à la fois
       arrows: true,
-    });
+    });  
     
 });
 
